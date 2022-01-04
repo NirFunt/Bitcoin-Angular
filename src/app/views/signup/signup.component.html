@@ -1,0 +1,9 @@
+<section class="signup main-layout">
+    <form (ngSubmit)="signupUser()">
+        <img src='https://digitalcoinmarketcap.com/wp-content/uploads/2021/07/BITCOIN-PRICE.jpg' />
+        <label for='username'>Enter Your Username</label>
+        <input [(ngModel)]="username" (ngModelChange)="setUsername()" name="username" type="text" id="username">
+        <button>Sign up</button>
+    </form>
+</section>
+

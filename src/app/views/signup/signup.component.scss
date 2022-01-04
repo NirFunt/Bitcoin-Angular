@@ -1,0 +1,31 @@
+.signup {
+    form {
+        display: flex;
+        flex-direction: column;
+        min-height: 90vh;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        input {
+            padding : 5px
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #fff3b0;
+            border: 2px solid #e09f3e;
+            cursor: pointer;
+            &:hover {
+                background-color: #b6a961;  
+            }
+        }
+    }
+    input {
+        border-radius: 15px;
+        padding: 10px 20px;
+        background-color: whitesmoke;  
+    }
+    img {
+        width: 40%;
+    }
+}

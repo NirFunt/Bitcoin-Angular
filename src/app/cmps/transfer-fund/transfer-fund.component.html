@@ -1,0 +1,6 @@
+<section class="transfer-fund">
+    <h3>Transfer coins to {{contact.name}}: </h3>
+    <label for='amount'>Amount:</label>
+    <input type="number" [(ngModel)]="amount" id="amount" name='amount' />
+    <button (click)="onTransfer()">Transfer</button>
+</section>

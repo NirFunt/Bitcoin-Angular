@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+$clr1 : #335c67;
+$clr2 :#fff3b0;
+$clr3 :#e09f3e;
+$clr4 :#9e2a2b;
+$clr5 :#540b0e;
+$clr6 :#eae0d5;
+$clr7 :#0a0908;
+
+body,p,h1,h2,h3,h4,h5,h6,ul,li {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(71, 71, 73);
+}
+
+.active {
+    color: #b3181d;
+}

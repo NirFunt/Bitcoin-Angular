@@ -1,0 +1,12 @@
+
+<section class="charts" *ngIf="tradeVolume.length&&marketPrice.length&&avgBlock.length">
+    <h1>Charts</h1>
+    <chart-tv [tradeVolume]="tradeVolume"></chart-tv>
+    <!-- {{avgBlock$ |async |json}} -->
+    <!-- <chart-ab [avgBlock]="avgBlock$ | async"></chart-ab> -->
+    <chart-ab [avgBlock]="avgBlock"></chart-ab>
+    <!-- {{marketPrice | json}} -->
+    <chart-mp [marketPrice]="marketPrice"></chart-mp>
+</section>
+
+
