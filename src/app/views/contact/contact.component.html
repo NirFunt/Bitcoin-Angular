@@ -1,6 +1,0 @@
-<section class="contact">
-    <!-- {{contacts$ | async | json}} -->
-    <img src="./assets/img/plus.png" routerLink="/contact/edit" class="add-btn"/>
-    <contact-filter></contact-filter>
-    <contact-list [contacts]="contacts$ | async" (onRemoveContact)="onRemoveContact($event)"></contact-list>
-</section>
